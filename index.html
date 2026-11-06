@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe5ef">
+  <title>For My CUTIEE 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="ambient-glow"></div>
+  <div id="particle-layer" aria-hidden="true"></div>
+  <div id="cursor-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="logo" href="#home">for my princess <span>♡</span></a>
+    <button class="music-btn" id="musicBtn" type="button">♫ Music</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orbit orbit-one"></div>
+      <div class="hero-orbit orbit-two"></div>
+
+      <span class="hero-sparkle sparkle-one">✦</span>
+      <span class="hero-sparkle sparkle-two">✧</span>
+      <span class="hero-sparkle sparkle-three">✦</span>
+
+      <p class="eyebrow">A LITTLE WEBSITE MADE WITH LOVE</p>
+      <h1>Happy Birthday,<br><span>PRINCESS</span> <span class="title-heart">💗</span></h1>
+      <p class="hero-description">
+        TODAY IS MY GURL DAY. SO THE INTERNET IS ALSO HER HAPPINESS.
+      </p>
+
+      <button class="main-btn" id="startBtn"
+       type="button">
+            Open your surprise 
+        <span>♡</span>
+      </button>
+
+      <div class="hero-bottom">SCROLL DOWN FOR YOUR SURPRISE ↓</div>
+    </section>
+
+    <section class="section countdown-section" id="countdown">
+      <p class="eyebrow">A SPECIAL DAY IS COMING</p>
+      <h2>Counting down to <em>your day</em></h2>
+      <div class="countdown" id="countdownDisplay">
+        <div class="time-card"><strong id="days">00</strong><span>DAYS</span></div>
+        <div class="time-card"><strong id="hours">00</strong><span>HOURS</span></div>
+        <div class="time-card"><strong id="minutes">00</strong><span>MINUTES</span></div>
+        <div class="time-card"><strong id="seconds">00</strong><span>SECONDS</span></div>
+      </div>
+      <p class="countdown-note" id="countdownNote">Every second brings us closer to your special day 💗</p>
+    </section>
+
+    <section class="section gallery-section" id="memories">
+      <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+      <h2>Our little <em>memory lane</em></h2>
+      <p class="section-intro">Some moments deserve to be kept forever.</p>
+
+      <div class="gallery">
+        <button class="photo-card" type="button">
+          <img src="images/photo1.jpg" alt="A special memory" loading="lazy">
+          <span class="photo-caption">MY PERSONAL RIDER ♡</span>
+        </button>
+        <button class="photo-card" type="button">
+          <img src="images/photo2.jpg" alt="Another special memory" loading="lazy">
+          <span class="photo-caption">MY CUTIEE PIEEE ✨</span>
+        </button>
+        <button class="photo-card" type="button">
+          <img src="images/photo3.jpg" alt="A favourite memory" loading="lazy">
+          <span class="photo-caption">BLUSHED MOMENTS 💗</span>
+        </button>
+      </div>
+      <p class="photo-hint">Tap a photo to make it bigger ✨</p>
+    </section>
+
+    <section class="section cake-section" id="cake">
+      <p class="eyebrow">WISH KARO MADAM JIII😘</p>
+      <h2>A cake just for <em>you</em></h2>
+      <p class="section-intro">Tap the candles to blow them out!</p>
+
+      <button class="cake-button" id="cakeBtn" type="button" aria-label="Blow out the birthday candles">
+        <span class="cake-candles">
+          <span class="candle"><i></i></span>
+          <span class="candle"><i></i></span>
+          <span class="candle"><i></i></span>
+        </span>
+        <span class="cake-top"></span>
+        <span class="cake-body"></span>
+        <span class="cake-plate"></span>
+      </button>
+      <p class="cake-message" id="cakeMessage">Make a wish, Princess! 🕯️</p>
+    </section>
+
+    <section class="section gift-section" id="gift">
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+      <h2>You've got a <em>surprise!</em></h2>
+      <p class="section-intro">Go on... tap your gift box.</p>
+
+      <button class="gift-button" id="giftBtn" type="button" aria-label="Open your birthday gift">
+        <span class="gift-sparkle">✦</span>
+        <span class="gift-bow">🎀</span>
+        <span class="gift-box" id="giftBox">🎁</span>
+      </button>
+      <p class="gift-hint" id="giftHint">Tap to open your gift 💗</p>
+
+      <div class="gift-reveal" id="giftReveal" hidden>
+        <div class="gift-reveal-card">
+          <span class="big-heart">💝</span>
+          <h3>A little reminder...</h3>
+          <p>You DESERVE MORE THAN THIS CUTIE.I LOVE UH DI SINCHANA🫶.</p>
+          <p class="gift-signature">Made especially for you ♡</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">WORDS FROM THE HEART</p>
+      <h2>A letter for <em>my princess</em></h2>
+
+      <button class="envelope" id="letterBtn" type="button">
+        <span class="envelope-heart">♡</span>
+        <span class="envelope-label">OPEN MY LETTER</span>
+      </button>
+
+      <article class="love-letter" id="loveLetter" hidden>
+        <span class="letter-decoration">💗</span>
+        <h3>To my Princess,AHM,HAPPIEST BIRTHDAY AMMU🫂💗 I LOVE UH SO MUCH THANGAU🫂 HUM THANK UH SO MUCH FOR BEING WITH ME HERE.ALL HERE WITH MY UPS AND DOWNS. A GURL WHO IS MY BIGGEST SUPPORTER OF MY LIFE🧿🫂.A GURL WHO IS HAVING VERY KIND HEARTED WITH A PRECIOUS LOVE❤️.A GURL WHO STOLE MY HEART WITH HER GORGEOUS EYES😭👑.HEHE STILL THERE TO EXPRESS MY LOVE TO UH BUT NOT MUCH SPACE HERE .LUV UHHHH SO MUCH SINCHUU🧿💗 MAY GOD BLESS UH WITH ALL HAPPINESS AND JOY🫶. AND REMEMBER UR BOY IS ALWAYS WITH UH🫂🫶</h3>
+        <p id=">"></p>
+        <p class="letter-signature">With lots of love, ♡</p>
+      </article>
+    </section>
+
+    <section class="final-section">
+      <span class="final-stars">✦ ✧ ✦</span>
+      <h2>Keep shining,<br><em>beautiful soul.</em></h2>
+      <p>May your birthday be as lovely and magical as you are.</p>
+      <div class="final-heart">💗</div>
+      <button class="main-btn" id="celebrateBtn" type="button">Celebrate again ✨</button>
+    </section>
+  </main>
+
+  <footer>MADE WITH ♡ JUST FOR PRINCESS</footer>
+
+  <div class="photo-modal" id="photoModal" hidden>
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close photo">×</button>
+    <img id="modalImage" src="" alt="Enlarged memory">
+  </div>
+</body>
+</html>
