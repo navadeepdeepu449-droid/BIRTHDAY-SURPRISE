@@ -121,7 +121,7 @@ document.addEventListener("pointermove", (event) => {
 function updateCountdown() {
   const now = new Date();
 
-  let birthday = new Date(
+  let birthday = new Date("2026-12-14T00:
     now.getFullYear(),
     BIRTHDAY_MONTH - 1,
     BIRTHDAY_DAY,
