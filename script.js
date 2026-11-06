@@ -4,7 +4,7 @@
 
 // CHANGE THESE TWO NUMBERS TO HER BIRTHDAY
 const BIRTHDAY_MONTH = 12; // December = 12
-const BIRTHDAY_DAY = 25;
+const BIRTHDAY_DAY = 14
 
 // Personalise the secret letter here
 const LETTER_MESSAGE =
